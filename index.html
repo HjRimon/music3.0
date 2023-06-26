@@ -369,6 +369,80 @@
       list-style: none;
       color: #fff;
     }
+    @media (max-width: 600px) {
+      body {
+        display: block;
+        overflow: hidden;
+      }
+
+      .content {
+        margin-top: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+        text-align: center;
+      }
+
+      .content h1 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-top: 30px;
+        margin-left: 40px;
+      }
+
+      .content p {
+        max-width: 80%;
+        margin-top: 20px;
+        opacity: 1;
+        margin-left: 65px;
+      }
+
+      .links {
+        margin: 30px;
+        opacity: 1;
+        margin-left: 50px;
+      }
+
+      .container {
+        width: 90%;
+        height: auto;
+        padding: 25px;
+        margin-left: 20px;
+        margin-bottom: 30px;
+      }
+
+      .img-area {
+        margin-top: 20px;
+      }
+
+      .song-details {
+        margin: 20px 0;
+      }
+
+      .progress-area {
+        margin-top: 15px;
+      }
+
+      .controls {
+        margin: 40px 0 15px 0;
+      }
+
+      .music-list {
+        padding: 15px;
+        max-height: 300px;
+      }
+
+      .music-list ul {
+        max-height: 220px;
+      }
+
+      .music-list ul li .row span {
+        font-size: 14px;
+      }
+
+      .header .row {
+        font-size: 16px;
+      }
+    }
   </style>
   <body>
     <!--First  -->
@@ -481,7 +555,7 @@
           artist: "Song by Justin",
           img: "music-8",
           src: "music-8",
-        }
+        },
         // ADD SONG END
       ];
     </script>
